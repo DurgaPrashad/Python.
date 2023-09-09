@@ -24,3 +24,13 @@ print('Dog barks')
 # class for Puppy which inherits the class Dog class Puppy(Dog): 
 '''This is the class Puppy and it inherits the class Dog''' def eats(self):
 print('Puppy likes to eat Dog Biscuit')
+self.name=name 
+self.year=year 
+def show(self): 
+print('\nName: %s\nYear: %d'%(self.name,self.year)) 
+c1=Car('Tata Nano',2010) 
+c1.show() 
+# Output 
+# Name: Tata Nano 
+# Year: 2010 
+Result: python script to implement constructor is successfully completed
